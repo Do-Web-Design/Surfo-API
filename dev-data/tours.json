@@ -1,0 +1,739 @@
+[
+  {
+    "_id": "A5c88fa8cf4afda397092955",
+    "type": "hike",
+    "nr": "01",
+    "island": "La Palma",
+    "name": "Camping along coast",
+    "bookmarkImgUrl": "bookmark01.jpg",
+    "cardLarge": "ok",
+
+    "cardLargeImgUrl1400": ["tour1Ax1400.jpg", "tour1x1400.jpg", "tour1Cx1400.jpg"],
+    "cardLargeImgUr800": ["tour1Ax800.jpg", "tour1x800.jpg", "tour1Cx800.jpg"],
+    "cardLargeDescription": "7-day tour with the group up to 12 people and 2 tour guides. Sleeping in tents",
+    "cardDifficultyImageUrl": "dif01.png",
+    "cardSmallName": "La Palma, Canaries",
+    "cardSmallDays": "7-day trip",   
+    "imageMain1400": "tour1x1400.jpg",
+    "imageMain800": "tour1x800.jpg",
+    "imageMain500": "tour1x500.jpg",
+
+
+    "imageCover" : "tour1x1400.jpg",    
+    "days": 7,
+    "startDates": [
+      "2023-06-19T09:00:00.000Z",
+      "2023-07-20T09:00:00.000Z",
+      "2023-08-18T09:00:00.000Z"
+    ],
+    "ratingAverage": 4.9,
+    "ratingQuantity": 78,
+    "startAndEndPoint": "Santa Cruz de La Palma",
+    "stops": ["1 city", "4 beaches"],
+    "stopPoints": ["Cala Martín Luís", "Puerto Trigo" ,"Playa de Nogales","Cascada De Los Tilos"], 
+    "locations": [
+      {
+        "_id": "D5c88fa8cf4afda3709c2918",
+        "description": "Cala Martín Luís",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "D5c88fa8cf4afda3709c2958",
+        "description": "Puerto Trigo",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "D5c88fa2cf4afda3709c2958",
+        "description": "Playa de Nogales",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "D5c88fa1cf4afda3709c2918",
+        "description": "Cascada De Los Tilos",
+        "type": "Point",
+        "coordinates": []
+      }
+    ],
+    "keywords": ["camping", "la palma", "hiking", "fully guided"],
+    "maxGroupSize": 18,
+    "minGroupSize": 12,
+    "sleeping": "tents",
+    "languages": "English, Spanish",
+    "food": "included",
+    "price": "249",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad unde porro neque natus recusandae assumenda iste sequi temporibus corrupti praesentium commodi, totam laborum libero facilis adipisci deleniti dolore ea ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque quisquam nesciunt deleniti totam debitis, blanditiis eius. Omnis suscipit, laborum, aspernatur nam autem ducimus quae tempora enim ipsum ipsam quo!",
+    "descriptionCheckPoints": ["great fun", "4 stops", "water safety stuff", "2 leaders", "tents", "2 lifeguards", "all meals included", "insurance"]
+  },
+  {
+    "_id": "D5c49fa1cf4afda3709c2918",
+    "type": "waterSport",
+    "nr": "02",
+    "island": "Fuerteventura",
+    "name": "Sailing around Canariest",
+    "bookmarkImgUrl": "bookmark02.jpg",
+    "cardLarge": "ok",
+
+    "cardLargeImgUrl1400": ["tour2x1400.jpg", "tour2Bx1400.jpg", "tour2Cx1400.jpg"],
+    "cardLargeImgUr800": ["tour2x800.jpg", "tour2Bx800.jpg", "tour2Cx800.jpg"],
+    "cardLargeDescription": "5-day tour with the group up to 6 people and sailor. Sleeping on the sailboat",
+    "cardDifficultyImageUrl": "dif02.png",
+    "cardSmallName": "Fuerteventura",
+    "cardSmallDays": "5-day trip",   
+    "imageMain1400": "tour2x1400.jpg",
+    "imageMain800": "tour2x800.jpg",
+    "imageMain500": "tour2x500.jpg",
+
+
+    "imageCover" : "tour2x1400.jpg",    
+    "days": 5,
+    "startDates": [
+      "2023-09-19T09:00:00.000Z",
+      "2023-10-20T09:00:00.000Z",
+      "2023-11-18T09:00:00.000Z"
+    ],
+    "ratingAverage": "4.8",
+    "ratingQuantity": 97,
+    "startAndEndPoint": "Puerto del Rosario",
+    "stops": ["3 harborns", "4 beaches"],
+    "stopPoints": ["Lobos", "Playa Flamingo", "Las Caletas", "Orzola", "La Graciosa", "Famara", "Playa de Cofete"], 
+    "locations": [
+      {
+        "_id": "H5c88fa8cf4agda39709c291",
+        "description": "Lobos",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "H5c88fa8cf4agda39709c221",
+        "description": "Playa Flamingo",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "H5c88fa8cf1agda39709c221",
+        "description": "Las Caletas",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "H5c88fa8cf7agda39709c221",
+        "description": "Orzola",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "H5c81fa8cf1agda39709c221",
+        "description": "La Graciosa",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "H5c98fa8cf1agda39709c221",
+        "description": "Famara",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "H5c88fa8cf1afda39709c221",
+        "description": "Playa de Cofete",
+        "type": "Point",
+        "coordinates": []
+      }
+    ],
+    "keywords": ["sailing", "sea", "beach", "fully guided"],
+    "maxGroupSize": 18,
+    "minGroupSize": 8,
+    "sleeping": "sailboat",
+    "languages": "English, Spanish",
+    "food": "included",
+    "price": "329",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad unde porro neque natus recusandae assumenda iste sequi temporibus corrupti praesentium commodi, totam laborum libero facilis adipisci deleniti dolore ea ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque quisquam nesciunt deleniti totam debitis, blanditiis eius. Omnis suscipit, laborum, aspernatur nam autem ducimus quae tempora enim ipsum ipsam quo!",
+    "descriptionCheckPoints": ["great fun", "7 stops", "water safety stuff", "2 leaders", "adventure", "2 lifeguards", "all meals included", "insurance"]
+  }, 
+  {
+    "_id": "5c88fa8af4afda39709c2965",
+    "type": "waterSport",
+    "nr": "03",
+    "island": "Tenerife",
+    "name": "Surfing tour by van",
+    "bookmarkImgUrl": "bookmark03.jpg",
+    "cardLarge": "ok",
+
+    "cardLargeImgUrl1400": ["tour3x1400.jpg", "tour3Bx1400.jpg", "tour3Cx1400.jpg"],
+    "cardLargeImgUr800": ["tour3x800.jpg", "tour3Bx800.jpg", "tour3Cx800.jpg"],
+    "cardLargeDescription": "10-day tour with the group up to 15 people and 4 tour guides. Sleeping in vans",
+    "cardDifficultyImageUrl": "dif03.png",
+    "cardSmallName": "Tenerife, Canaries",
+    "cardSmallDays": "10-day trip",   
+    "imageMain1400": "tour3x1400.jpg",
+    "imageMain800": "tour3x800.jpg",
+    "imageMain500": "tour3x500.jpg",
+
+
+    "imageCover" : "tour3x1400.jpg",    
+    "days": 10,
+    "startDates": [
+      "2023-06-19T09:00:00.000Z",
+      "2023-07-20T09:00:00.000Z",
+      "2023-08-18T09:00:00.000Z"
+    ],
+    "ratingAverage": "5.0",
+    "ratingQuantity": 98,
+    "startAndEndPoint": "Santa Cruz de Tenerife",
+    "stops": ["6 beaches"],
+    "stopPoints": ["Playa de Las Gaviotas", "Playa de Roque Bermejo", "Playa Las Breñas", "Playa de Benijo", "Almáciga Beach", "Playa del Tamadite"], 
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2964",
+        "description": "Playa de Las Gaviotas",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2963",
+        "description": "Playa de Roque Bermejo",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2962",
+        "description": "Playa Las Breñas",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2969",
+        "description": "Playa de Benijo",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295d",
+        "description": "Almáciga Beach",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2960",
+        "description": "Playa del Tamadite",
+        "type": "Point",
+        "coordinates": []
+      }
+    ],
+    "keywords": ["camping", "tenerife", "surfing", "fully guided"],
+    "maxGroupSize": 18,
+    "minGroupSize": 10,
+    "sleeping": "vans",
+    "languages": "English, Spanish",
+    "food": "included",
+    "price": "319",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad unde porro neque natus recusandae assumenda iste sequi temporibus corrupti praesentium commodi, totam laborum libero facilis adipisci deleniti dolore ea ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque quisquam nesciunt deleniti totam debitis, blanditiis eius. Omnis suscipit, laborum, aspernatur nam autem ducimus quae tempora enim ipsum ipsam quo!",
+    "descriptionCheckPoints": ["great fun", "3 drivers", "water safety stuff", "2 leaders", "vans", "3 lifeguards", "all meals included", "insurance"]
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c295f",
+    "type": "dayTrip",
+    "nr": "04",
+    "island": "Lanzarote",
+    "name": "La Graciosa by bike",
+    "bookmarkImgUrl": "bookmark04.jpg",
+
+    "cardSmall": "ok",
+    "cardLargeImgUrl1400": ["tour4Ax1400.jpg", "tour4Bx1400.jpg", "tour4Cx1400.jpg"],
+    "cardLargeImgUr800": ["tour4Ax800.jpg", "tour4Bx800.jpg", "tour4Cx800.jpg"],
+    "cardLargeDescription": "",
+    "cardDifficultyImageUrl": "",
+    "cardSmallName": "Lanzarote, Canaries",
+    "cardSmallDays": "1-day trip",   
+    "imageMain1400": "tour4x1400.jpg",
+    "imageMain800": "tour4x800.jpg",
+    "imageMain500": "tour4x500.jpg",
+
+
+    "imageCover" : "tour4x1400.jpg",    
+    "days": 1,
+    "startDates": [
+      "2023-06-19T09:00:00.000Z",
+      "2023-07-20T09:00:00.000Z",
+      "2023-08-18T09:00:00.000Z"
+    ],
+    "ratingAverage": 4.9,
+    "ratingQuantity": 99,
+    "startAndEndPoint": "Órzola, Lanzarote",
+    "stops": ["2 viewpoints", "4 beaches"],
+    "stopPoints": ["Caleta del Sebo", "Barranco de los Conejos", "Playa Lambra", "Playa de las Conchas", "Playa de la Cocina", "Playa Francesa"], 
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c296b",
+        "description": "Caleta del Sebo",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295e",
+        "description": "Barranco de los Conejos",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c296a",
+        "description": "Playa Lambra",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afea39709c2969",
+        "description": "Playa de las Conchas",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2968",
+        "description": "Playa de la Cocina",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2967",
+        "description": "Playa Francesa",
+        "type": "Point",
+        "coordinates": []
+      }
+    ],
+    "keywords": ["bike", "isla", "archipelago", "fully guided"],
+    "maxGroupSize": 18,
+    "minGroupSize": 15,
+    "sleeping": "-",
+    "languages": "English, Spanish",
+    "food": "included",
+    "price": "79",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad unde porro neque natus recusandae assumenda iste sequi temporibus corrupti praesentium commodi, totam laborum libero facilis adipisci deleniti dolore ea ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque quisquam nesciunt deleniti totam debitis, blanditiis eius. Omnis suscipit, laborum, aspernatur nam autem ducimus quae tempora enim ipsum ipsam quo!",
+    "descriptionCheckPoints": ["great fun", "4 stops", "water safety stuff", "2 leaders", "bicycles", "2 lifeguards", "all meals included", "insurance"]
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2970",
+    "type": "waterSport",
+    "nr": "05",
+    "island": "La Gomera",
+    "name": "Sailing with Gigantes",
+
+    "bookmarkImgUrl": "bookmark05.jpg",
+    "cardSmall": "ok",
+    "cardLargeImgUrl1400": ["tour5Ax1400.jpg", "tour5Bx1400.jpg", "tour5Cx1400.jpg"],
+    "cardLargeImgUr800": ["tour5Ax800.jpg", "tour5Bx800.jpg", "tour5Cx800.jpg"],
+    "cardLargeDescription": "",
+    "cardDifficultyImageUrl": "",
+    "cardSmallName": "La Gomera, Canaries",
+    "cardSmallDays": "5-day trip",   "imageMain1400": "tour5x1400.jpg",
+    "imageMain800": "tour5x800.jpg",
+    "imageMain500": "tour5x500.jpg",
+
+
+    "imageCover" : "tour5x1400.jpg",    
+    "days": 5,
+    "startDates": [
+      "2023-06-19T09:00:00.000Z",
+      "2023-07-20T09:00:00.000Z",
+      "2023-08-18T09:00:00.000Z"
+    ],
+    "ratingAverage": 4.7,
+    "ratingQuantity": 57,
+    "startAndEndPoint": "Los Gigantes,Tenerife",
+    "stops": ["2 cities", "5 beaches"],
+    "stopPoints": ["Playa Barranco Seco", "San Sebastián de la Gomera", "Playa de Ávalo", "Punta de los Órganos", "Playa de Heredia", "Playa del Inglés"], 
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2973",
+        "description": "",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2972",
+        "description": "",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2971",
+        "description": "",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2974",
+        "description": "",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2975",
+        "description": "",
+        "type": "Point",
+        "coordinates": []
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c296c",
+        "description": "",
+        "type": "Point",
+        "coordinates": []
+      }
+    ],
+    "keywords": ["sailing", "tenerife", "la gomera", "fully guided"],
+    "maxGroupSize": 18,
+    "minGroupSize": 10,
+    "sleeping": "sailboat",
+    "languages": "English, Spanish",
+    "food": "included",
+    "price": "239",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad unde porro neque natus recusandae assumenda iste sequi temporibus corrupti praesentium commodi, totam laborum libero facilis adipisci deleniti dolore ea ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque quisquam nesciunt deleniti totam debitis, blanditiis eius. Omnis suscipit, laborum, aspernatur nam autem ducimus quae tempora enim ipsum ipsam quo!",
+    "descriptionCheckPoints": ["great fun", "6 stops", "water safety stuff", "2 leaders", "sailboat", "2 lifeguards", "all meals included", "insurance"]
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c296f", 
+    "type": "dayTrip",
+    "name": "Discovering Lobos",
+    "nr": "06",
+    "island": "Fuerteventura",
+    "bookmarkImgUrl": "bookmark06.jpg",
+
+    "cardSmall": "ok",
+    "cardLargeImgUrl1400": ["tour6Ax1400.jpg", "tour6Bx1400.jpg", "tour6Cx1400.jpg"],
+    "cardLargeImgUr800": ["tour6Ax800.jpg", "tour6Bx800.jpg", "tour6Cx800.jpg"],
+    "cardLargeDescription": "",
+    "cardDifficultyImageUrl": "",
+    "cardSmallName": "Fuerteventura",
+    "cardSmallDays": "1-day trip",   
+    "imageMain1400": "tour6x1400.jpg",
+    "imageMain800": "tour6x800.jpg",
+    "imageMain500": "tour6x500.jpg",
+
+
+    "imageCover" : "tour6x1400.jpg",    
+    "days": 1,
+    "startDates": [
+      "2023-06-19T09:00:00.000Z",
+      "2023-07-20T09:00:00.000Z",
+      "2023-08-18T09:00:00.000Z"
+    ],
+    "ratingAverage": 4.7,
+    "ratingQuantity": 43,
+    "startAndEndPoint": " Puerto de Corralejo",
+    "stops": ["1 city", "4 beaches"],
+    "stopPoints": ["El Puertito", "Las Lagunitas", "Punta Martiño lighthouse", "Montaña La Caldera"], 
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c296e",
+        "description": "",
+        "type": "Point",
+        "coordinates": []
+      }
+    ],
+    "keywords": ["beach", "lobos", "relax", "fully guided"],
+    "maxGroupSize": 18,
+    "minGroupSize": 12,
+    "sleeping": "-",
+    "languages": "English, Spanish",
+    "food": "included",
+    "price": "129",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad unde porro neque natus recusandae assumenda iste sequi temporibus corrupti praesentium commodi, totam laborum libero facilis adipisci deleniti dolore ea ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque quisquam nesciunt deleniti totam debitis, blanditiis eius. Omnis suscipit, laborum, aspernatur nam autem ducimus quae tempora enim ipsum ipsam quo!",
+    "descriptionCheckPoints": ["great fun", "4 stops", "water safety stuff", "2 leaders", "tents", "2 lifeguards", "all meals included", "insurance"]
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c296d",
+    "type": "hike",
+    "nr": "07",
+    "island": "Tenerife",
+    "name": "Anaga hike",
+    "bookmarkImgUrl": "bookmark07.jpg",
+
+    "cardSmall": "ok",
+    "cardLargeImgUrl1400": ["tour7Ax1400.jpg", "tour7Bx1400.jpg", "tour7Cx1400.jpg"],
+    "cardLargeImgUr800": ["tour7Ax800.jpg", "tour7Bx800.jpg", "tour7Cx800.jpg"],
+    "cardLargeDescription": "",
+    "cardDifficultyImageUrl": "",
+    "cardSmallName": "Tenerife, Canaries",
+    "cardSmallDays": "2-day trip",   
+    "imageMain1400": "tour7x1400.jpg",
+    "imageMain800": "tour7x800.jpg",
+    "imageMain500": "tour7x500.jpg",
+
+
+    "imageCover" : "tour7x1400.jpg",    
+    "days": 2,
+    "startDates": [
+      "2023-06-19T09:00:00.000Z",
+      "2023-07-20T09:00:00.000Z",
+      "2023-08-18T09:00:00.000Z"
+    ],
+    "ratingAverage": 4.8,
+    "ratingQuantity": 38,
+    "startAndEndPoint": "Santa Cruz de Tenerife",
+    "stops": ["1 city", "4 viewpoints"],
+    "stopPoints": ["La Laguna", "Las Lagunetas", "Las Cañadas del Teide", "Capilla de la Fortaleza", "Pico del Teide", "Boca Tauce"], 
+    "locations": [
+      {
+        "_id": "5c89fa8cf4afda39709c296d",
+        "description": "",
+        "type": "Point",
+        "coordinates": []
+      }
+    ],
+    "keywords": ["camping", "tenerife", "hiking", "fully guided"],
+    "maxGroupSize": 18,
+    "minGroupSize": 10,
+    "sleeping": "tents",
+    "languages": "English, Spanish",
+    "food": "included",
+    "price": "69",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad unde porro neque natus recusandae assumenda iste sequi temporibus corrupti praesentium commodi, totam laborum libero facilis adipisci deleniti dolore ea ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque quisquam nesciunt deleniti totam debitis, blanditiis eius. Omnis suscipit, laborum, aspernatur nam autem ducimus quae tempora enim ipsum ipsam quo!",
+    "descriptionCheckPoints": ["great fun", "4 stops", "cars", "2 leaders", "tents", "2 lifeguards", "all meals included", "insurance"]
+  },
+  {
+    "_id": "5c88fa8cf4afda39719c296d",
+    "type": "waterSport",
+    "nr": "08",
+    "island": "Gran Canaria",
+    "name": "Dunas Maspalomas",
+    "bookmarkImgUrl": "bookmark08.jpg",
+
+    "cardMedium": "ok",
+    "cardLargeImgUrl1400": ["tour8Ax1400.jpg", "tour8Bx1400.jpg", "tour8Cx1400.jpg"],
+    "cardLargeImgUr800": ["tour8Ax800.jpg", "tour8Bx800.jpg", "tour8Cx800.jpg"],
+    "cardLargeDescription": "",
+    "cardDifficultyImageUrl": "",
+    "cardSmallName": "Gran Canaria",
+    "cardSmallDays": "1-day trip",
+    "imageMain1400": "tour8x1400.jpg",
+    "imageMain800": "tour8x800.jpg",
+    "imageMain500": "tour8x500.jpg",
+
+
+    "imageCover" : "tour8x1400.jpg",    
+    "days": 1,
+    "startDates": [
+      "2023-06-19T09:00:00.000Z",
+      "2023-07-20T09:00:00.000Z",
+      "2023-08-18T09:00:00.000Z"
+    ],
+    "ratingAverage": 4.8,
+    "ratingQuantity": 154,
+    "startAndEndPoint": "Maspalomas",
+    "stops": ["1 city", "dunas"],
+    "stopPoints": ["Dunes of Maspalomas", "Playa del Inglés"], 
+    "locations": [
+      {
+        "_id": "5c18fa8cf4afda39709c296d",
+        "description": "",
+        "type": "Point",
+        "coordinates": []
+      }
+    ],
+    "keywords": ["beach", "gran canaria", "walking", "fully guided"],
+    "maxGroupSize": 18,
+    "minGroupSize": 15,
+    "sleeping": "-",
+    "languages": "English, Spanish",
+    "food": "included",
+    "price": "29",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad unde porro neque natus recusandae assumenda iste sequi temporibus corrupti praesentium commodi, totam laborum libero facilis adipisci deleniti dolore ea ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque quisquam nesciunt deleniti totam debitis, blanditiis eius. Omnis suscipit, laborum, aspernatur nam autem ducimus quae tempora enim ipsum ipsam quo!",
+    "descriptionCheckPoints": ["great fun", "dunas", "water safety stuff", "2 leaders", "sandboarding", "2 lifeguards", "all meals included", "insurance"]
+  },
+  {
+    "_id": "5c87fa8cf4afda39709c296d",
+    "type": "waterSport",
+    "name": "Benijo Surfing",
+    "nr": "09",
+    "island": "Tenerife",
+    "bookmarkImgUrl": "bookmark09.jpg",
+
+    "cardMedium": "ok",
+    "cardLargeImgUrl1400": ["tour9Ax1400.jpg", "tour9Bx1400.jpg", "tour9Cx1400.jpg"],
+    "cardLargeImgUr800": ["tour9Ax800.jpg", "tour9Bx800.jpg", "tour9Cx800.jpg"],
+    "cardLargeDescription": "",
+    "cardDifficultyImageUrl": "",
+    "cardSmallName": "Tenerife, Canaries",
+    "cardSmallDays": "6-day trip",
+    "imageMain1400": "tour9x1400.jpg",
+    "imageMain800": "tour9x800.jpg",
+    "imageMain500": "tour9x500.jpg",
+
+    "imageCover" : "tour9x1400.jpg",    
+    "days": 6,
+    "startDates": [
+      "2023-06-19T09:00:00.000Z",
+      "2023-07-20T09:00:00.000Z",
+      "2023-08-18T09:00:00.000Z"
+    ],
+    "ratingAverage": 5.0,
+    "ratingQuantity": 94,
+    "startAndEndPoint": "Santa Cruz de Tenerife",
+    "stops": ["1 city", "4 beaches"],
+    "stopPoints": ["Playa de Las Gaviotas", "Playa de Benijo", "Almáciga Beach", "Playa del Tamadite"], 
+    "locations": [
+      {
+        "_id": "2c88fa8cf4afda39709c296d",
+        "description": "",
+        "type": "Point",
+        "coordinates": []
+      }
+    ],
+    "keywords": ["camping", "tenerife", "surfing", "fully guided"],
+    "maxGroupSize": 18,
+    "minGroupSize": 15,
+    "sleeping": "vans",
+    "languages": "English, Spanish",
+    "food": "included",
+    "price": "149",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad unde porro neque natus recusandae assumenda iste sequi temporibus corrupti praesentium commodi, totam laborum libero facilis adipisci deleniti dolore ea ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque quisquam nesciunt deleniti totam debitis, blanditiis eius. Omnis suscipit, laborum, aspernatur nam autem ducimus quae tempora enim ipsum ipsam quo!",
+    "descriptionCheckPoints": ["great fun", "4 stops", "water safety stuff", "2 leaders", "vans", "2 lifeguards", "all meals included", "insurance"]
+  },
+  {
+    "_id": "3c88fa8cf4afda39709c296d",
+    "type": "hike",
+    "nr": "10",
+    "island": "Tenerife",
+    "name": "Volcano el Teide",
+    "bookmarkImgUrl": "bookmark10.jpg",
+    
+    "cardMedium": "ok",
+    "cardLargeImgUrl1400": ["tour10Ax1400.jpg", "tour10Bx1400.jpg", "tour10Cx1400.jpg"],
+    "cardLargeImgUr800": ["tour10Ax800.jpg", "tour10Bx800.jpg", "tour10Cx800.jpg"],
+    "cardLargeDescription": "",
+    "cardDifficultyImageUrl": "",
+    "cardSmallName": "Tenerife, Canaries",
+    "cardSmallDays": "3-day trip",
+    "imageMain1400": "tour10x1400.jpg",
+    "imageMain800": "tour10x800.jpg",
+    "imageMain500": "tour10x500.jpg",
+    
+    "imageCover" : "tour10x1400.jpg",
+    "days": 3,
+    "startDates": [
+      "2023-06-19T09:00:00.000Z",
+      "2023-07-20T09:00:00.000Z",
+      "2023-08-18T09:00:00.000Z"
+    ],
+    "ratingAverage": 4.9,
+    "ratingQuantity": 114,
+    "startAndEndPoint": "Santa Cruz de Tenerife",
+    "stops": ["1 city", "4 viewpoints"],
+    "stopPoints": ["Santa Cruz De Tenerife", "La Laguna", "La Esperanza", "Mirador de Chipeque", "Mirador de La Crucita", "Teide"], 
+    "locations": [
+      {
+        "_id": "4c88fa8cf4afda39709c296d",
+        "description": "",
+        "type": "Point",
+        "coordinates": []
+      }
+    ],
+    "keywords": ["camping", "tenerife", "hiking", "fully guided"],
+    "maxGroupSize": 18,
+    "minGroupSize": 12,
+    "sleeping": "tents",
+    "languages": "English, Spanish",
+    "food": "included",
+    "price": "169",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad unde porro neque natus recusandae assumenda iste sequi temporibus corrupti praesentium commodi, totam laborum libero facilis adipisci deleniti dolore ea ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque quisquam nesciunt deleniti totam debitis, blanditiis eius. Omnis suscipit, laborum, aspernatur nam autem ducimus quae tempora enim ipsum ipsam quo!",
+    "descriptionCheckPoints": ["great fun", "4 stops", "water safety stuff", "2 leaders", "tents", "camping equipment", "all meals included", "insurance"]
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c291d",
+    "type": "waterSport",
+    "nr": "11",
+    "island": "El Hierro",
+    "name": "Hop Diving",
+    
+    "bookmarkImgUrl": "bookmark10.jpg",
+    "cardLargeImgUrl1400": ["tour10Ax1400.jpg", "tour10Bx1400.jpg", "tour10Cx1400.jpg"],
+    "cardLargeImgUr800": ["tour10Ax800.jpg", "tour10Bx800.jpg", "tour10Cx800.jpg"],
+    "cardLargeDescription": "",
+    "cardDifficultyImageUrl": "",
+    "cardSmallName": "El Hierro, Canaries",
+    "cardSmallDays": "4-day trip",   
+    "imageMain1400": "tour11x1400.jpg",
+    "imageMain800": "tour11x800.jpg",
+    "imageMain500": "tour11x500.jpg",
+    
+    "imageCover" : "tour11x1400.jpg",
+    "days": 4,
+    "startDates": [
+      "2023-06-19T09:00:00.000Z",
+      "2023-07-20T09:00:00.000Z",
+      "2023-08-18T09:00:00.000Z"
+    ],
+    "ratingAverage": 4.9,
+    "ratingQuantity": 44,
+    "startAndEndPoint": "La Restinga Puerto Deportivo",
+    "stops": ["4 beaches"],
+    "stopPoints": ["La Restinga Puerto Deportivo", "Playa de las Alcusas", "Playa de las Calcosas", "Charco Azul"], 
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c292d",
+        "description": "",
+        "type": "Point",
+        "coordinates": []
+      }
+    ],
+    "keywords": ["diving", "el hierro", "boats", "fully guided"],
+    "maxGroupSize": 18,
+    "minGroupSize": 10,
+    "sleeping": "boats",
+    "languages": "English, Spanish",
+    "food": "included",
+    "price": "319",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad unde porro neque natus recusandae assumenda iste sequi temporibus corrupti praesentium commodi, totam laborum libero facilis adipisci deleniti dolore ea ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque quisquam nesciunt deleniti totam debitis, blanditiis eius. Omnis suscipit, laborum, aspernatur nam autem ducimus quae tempora enim ipsum ipsam quo!",
+    "descriptionCheckPoints": ["great fun", "4 stops", "water safety stuff", "2 leaders", "boats", "2 lifeguards", "all meals included", "insurance"]
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c293d",
+    "type": "waterSport",
+    "nr": "12",
+    "island": "Fuerteventura",
+    "name": "Fast Wind",
+    
+    "bookmarkImgUrl": "bookmark12.jpg",
+    "cardLargeImgUrl1400": ["tour12Ax1400.jpg", "tour12Bx1400.jpg", "tour12Cx1400.jpg"],
+    "cardLargeImgUr800": ["tour12Ax800.jpg", "tour12Bx800.jpg", "tour12Cx800.jpg"],
+    "cardLargeDescription": "",
+    "cardDifficultyImageUrl": "",
+    "cardSmallName": "Fuerteventura",
+    "cardSmallDays": "1-day trip",   
+    "imageMain1400": "tour12x1400.jpg",
+    "imageMain800": "tour12x800.jpg",
+    "imageMain500": "tour12x500.jpg",
+    
+    "imageCover" : "tour12x1400.jpg",
+    "days": 1,
+    "startDates": [
+      "2023-06-19T09:00:00.000Z",
+      "2023-07-20T09:00:00.000Z",
+      "2023-08-18T09:00:00.000Z"
+    ],
+    "ratingAverage": 4.9,
+    "ratingQuantity": 38,
+    "startAndEndPoint": "Playa Esmeralda",
+    "stops": ["2 beaches"],
+    "stopPoints": ["Playa Esmeralda", "Playa Esquinzo-Butihondom"], 
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c294d",
+        "description": "",
+        "type": "Point",
+        "coordinates": []
+      }
+    ],
+    "keywords": ["windsurfing", "fuerte", "beach", "fully guided"],
+    "maxGroupSize": 18,
+    "minGroupSize": 15,
+    "sleeping": "-",
+    "languages": "English, Spanish",
+    "food": "included",
+    "price": "49",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad unde porro neque natus recusandae assumenda iste sequi temporibus corrupti praesentium commodi, totam laborum libero facilis adipisci deleniti dolore ea ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque quisquam nesciunt deleniti totam debitis, blanditiis eius. Omnis suscipit, laborum, aspernatur nam autem ducimus quae tempora enim ipsum ipsam quo!",
+    "descriptionCheckPoints": ["great fun", "2 beaches", "water safety stuff", "2 leaders", "windsurfing equipment", "2 lifeguards", "all meals included", "insurance"]
+  }
+]

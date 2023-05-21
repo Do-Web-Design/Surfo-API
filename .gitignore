@@ -1,0 +1,6 @@
+node_modules/
+*.env
+dev-data/comments-test.json
+dev-data/reviews-test.json
+dev-data/users-test.json
+
