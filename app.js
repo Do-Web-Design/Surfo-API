@@ -29,7 +29,7 @@ app.enable('trust proxy');
 
 app.use(cors({
   // origin:'http://127.0.0.1:8080',
-  origin:'https://do-web-design.github.io/Surfo-web/',
+  origin:'https://do-web-design.github.io',
   credentials:true,
 }));
 
