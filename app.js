@@ -17,6 +17,7 @@ const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
 const commentRouter = require('./routes/commentRoutes');
 const bookmarkRouter = require('./routes/bookmarkRoutes');
+const bookingRouter = require('./routes/bookingRoutes');
 const AppError = require('./utils/appError')
 const globalErrorHandler = require('./controllers/errorController');
 
@@ -28,12 +29,35 @@ const app = express();
 app.enable('trust proxy'); 
 
 app.use(cors({
+  // origin:'http://localhost:3000',
   // origin:'http://127.0.0.1:8080',
-  origin:'https://do-web-design.github.io',
-  credentials:true,
-}));
+  // // origin:'https://do-web-design.github.io',
+  // credentials:true
+}
+));
 
-app.options('*', cors());
+
+
+
+
+// app.use((req, res, next) => {
+//   res.setHeader("Access-Control-Allow-Origin", "*");
+//   res.setHeader(
+//     "Access-Control-Allow-Headers",
+//     "Origin, X-Requested-With, Content, Accept, Content-Type, Authorization"
+//   );
+//   res.setHeader(
+//     "Access-Control-Allow-Methods",
+//     "GET, POST, PUT, DELETE, PATCH, OPTIONS"
+//   );
+//   next();
+// });
+
+
+
+
+
+
 
 app.use(
   helmet({
@@ -58,6 +82,12 @@ app.use(express.json({
 })); 
 app.use(cookieParser()); 
 
+app.use((req, res, next) => {
+  req.requestTime = new Date().toISOString();
+  console.log(req.cookies)
+  next()
+})
+
 app.use(mongoSanitize());
 app.use(xss()); 
 app.use(compression());
@@ -70,6 +100,7 @@ app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
 app.use('/api/v1/comments', commentRouter);
 app.use('/api/v1/bookmarks', bookmarkRouter);
+app.use('/api/v1/booking', bookingRouter);
 
 app.all('*'), (req, res, next) => {
   next ( new AppError ( `Can not find ${req.originalUrl} on this server`, 404));

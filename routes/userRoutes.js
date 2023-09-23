@@ -5,16 +5,20 @@ const authController = require('../controllers/authController');
 const reviewRouter = require('./reviewRoutes')
 const commentRouter = require('./commentRoutes')
 const bookmarkRouter = require('./bookmarkRoutes')
+const bookingRouter = require('./bookingRoutes')
 
 const router = express.Router({mergeParams: true});
 
 router.use('/:userId/reviews', reviewRouter);
 router.use('/:userId/comments', commentRouter);
 router.use('/:userId/bookmarks', bookmarkRouter);
+router.use('/:userId/booking', bookingRouter);
+
 
 router.post('/signup', authController.signup); 
 router.post('/login', authController.login);
 router.get('/logout', authController.logout);
+
 router.post('/forgotPassword', authController.forgotPassword);
 router.patch('/resetPassword/:token', authController.resetPassword);
 
@@ -33,6 +37,8 @@ userController.getUser
 
 router.patch(
 '/updateMe', 
+userController.uploadUserPhoto,
+userController.resizeUserPhoto,
 userController.updateMe
 );
 

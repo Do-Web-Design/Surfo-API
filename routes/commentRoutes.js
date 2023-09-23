@@ -22,7 +22,7 @@ router
     commentController.updateComment
   )
   .delete(
-    authController.restrictTo('user', 'admin'),
+    authController.protect, 
     commentController.deleteComment
   );
 

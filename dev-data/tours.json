@@ -7,7 +7,6 @@
     "name": "Camping along coast",
     "bookmarkImgUrl": "bookmark01.jpg",
     "cardLarge": "ok",
-
     "cardLargeImgUrl1400": ["tour1Ax1400.jpg", "tour1x1400.jpg", "tour1Cx1400.jpg"],
     "cardLargeImgUr800": ["tour1Ax800.jpg", "tour1x800.jpg", "tour1Cx800.jpg"],
     "cardLargeDescription": "7-day tour with the group up to 12 people and 2 tour guides. Sleeping in tents",
@@ -17,8 +16,6 @@
     "imageMain1400": "tour1x1400.jpg",
     "imageMain800": "tour1x800.jpg",
     "imageMain500": "tour1x500.jpg",
-
-
     "imageCover" : "tour1x1400.jpg",    
     "days": 7,
     "startDates": [
@@ -31,30 +28,28 @@
     "startAndEndPoint": "Santa Cruz de La Palma",
     "stops": ["1 city", "4 beaches"],
     "stopPoints": ["Cala Martín Luís", "Puerto Trigo" ,"Playa de Nogales","Cascada De Los Tilos"], 
-    "locations": [
+    "mapCenterCoordinates": [28.73822808404294, -17.73172799564545],
+    "mapZoom": 11,
+    "mapLocations": [
       {
-        "_id": "D5c88fa8cf4afda3709c2918",
+        "description": "Santa Cruz de la Palma - Starting Point",
+        "coordinates":[28.688641471278494, -17.768137452696458]
+      },
+      {
         "description": "Cala Martín Luís",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [28.722346708699753, -17.731898716068294]
       },
       {
-        "_id": "D5c88fa8cf4afda3709c2958",
         "description": "Puerto Trigo",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [28.725120669266637, -17.730055068442372]
       },
       {
-        "_id": "D5c88fa2cf4afda3709c2958",
         "description": "Playa de Nogales",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [28.759948944001657, -17.740278592319857]
       },
       {
-        "_id": "D5c88fa1cf4afda3709c2918",
         "description": "Cascada De Los Tilos",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [28.790080893275665, -17.803813787210938]
       }
     ],
     "keywords": ["camping", "la palma", "hiking", "fully guided"],
@@ -75,7 +70,6 @@
     "name": "Sailing around Canariest",
     "bookmarkImgUrl": "bookmark02.jpg",
     "cardLarge": "ok",
-
     "cardLargeImgUrl1400": ["tour2x1400.jpg", "tour2Bx1400.jpg", "tour2Cx1400.jpg"],
     "cardLargeImgUr800": ["tour2x800.jpg", "tour2Bx800.jpg", "tour2Cx800.jpg"],
     "cardLargeDescription": "5-day tour with the group up to 6 people and sailor. Sleeping on the sailboat",
@@ -85,8 +79,6 @@
     "imageMain1400": "tour2x1400.jpg",
     "imageMain800": "tour2x800.jpg",
     "imageMain500": "tour2x500.jpg",
-
-
     "imageCover" : "tour2x1400.jpg",    
     "days": 5,
     "startDates": [
@@ -99,48 +91,40 @@
     "startAndEndPoint": "Puerto del Rosario",
     "stops": ["3 harborns", "4 beaches"],
     "stopPoints": ["Lobos", "Playa Flamingo", "Las Caletas", "Orzola", "La Graciosa", "Famara", "Playa de Cofete"], 
-    "locations": [
+    "mapCenterCoordinates": [28.75329105934569, -13.804384108530696],
+    "mapZoom": 8,
+    "mapLocations": [
       {
-        "_id": "H5c88fa8cf4agda39709c291",
+        "description": "Puerto del Rosario - Starting Point",
+        "coordinates": [28.502170587518556, -13.864026009715547]
+      },
+      {
         "description": "Lobos",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [28.75329105934569, -13.804384108530696]
       },
       {
-        "_id": "H5c88fa8cf4agda39709c221",
         "description": "Playa Flamingo",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [28.854832508347712, -13.846096032814135]
       },
       {
-        "_id": "H5c88fa8cf1agda39709c221",
         "description": "Las Caletas",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [28.982460260309345, -13.514547227433834]
       },
       {
-        "_id": "H5c88fa8cf7agda39709c221",
         "description": "Orzola",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [29.222915333715143, -13.451302077196104]
       },
       {
-        "_id": "H5c81fa8cf1agda39709c221",
         "description": "La Graciosa",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [29.260005947950123, -13.508398546095947]
       },
       {
-        "_id": "H5c98fa8cf1agda39709c221",
         "description": "Famara",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [29.117625930714464, -13.558086187964875]
       },
       {
-        "_id": "H5c88fa8cf1afda39709c221",
         "description": "Playa de Cofete",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [28.12163587467442, -14.401081211794624]
       }
     ],
     "keywords": ["sailing", "sea", "beach", "fully guided"],
@@ -161,7 +145,6 @@
     "name": "Surfing tour by van",
     "bookmarkImgUrl": "bookmark03.jpg",
     "cardLarge": "ok",
-
     "cardLargeImgUrl1400": ["tour3x1400.jpg", "tour3Bx1400.jpg", "tour3Cx1400.jpg"],
     "cardLargeImgUr800": ["tour3x800.jpg", "tour3Bx800.jpg", "tour3Cx800.jpg"],
     "cardLargeDescription": "10-day tour with the group up to 15 people and 4 tour guides. Sleeping in vans",
@@ -171,8 +154,6 @@
     "imageMain1400": "tour3x1400.jpg",
     "imageMain800": "tour3x800.jpg",
     "imageMain500": "tour3x500.jpg",
-
-
     "imageCover" : "tour3x1400.jpg",    
     "days": 10,
     "startDates": [
@@ -185,42 +166,36 @@
     "startAndEndPoint": "Santa Cruz de Tenerife",
     "stops": ["6 beaches"],
     "stopPoints": ["Playa de Las Gaviotas", "Playa de Roque Bermejo", "Playa Las Breñas", "Playa de Benijo", "Almáciga Beach", "Playa del Tamadite"], 
-    "locations": [
+    "mapCenterCoordinates": [28.513944143858776, -16.178166221655044],
+    "mapZoom": 11,
+    "mapLocations": [
       {
-        "_id": "5c88fa8cf4afda39709c2964",
+        "description": "Santa Cruz de Tenerife - Starting Point",
+        "coordinates": [28.477887252625692, -16.304184484382404]
+      },
+      {
         "description": "Playa de Las Gaviotas",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [28.513944143858776, -16.178166221655044]
       },
       {
-        "_id": "5c88fa8cf4afda39709c2963",
         "description": "Playa de Roque Bermejo",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [28.58593381784939, -16.142083357756533]
       },
       {
-        "_id": "5c88fa8cf4afda39709c2962",
         "description": "Playa Las Breñas",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [28.586964547626245, -16.154515155747497]
       },
       {
-        "_id": "5c88fa8cf4afda39709c2969",
         "description": "Playa de Benijo",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [28.57748449301157, -16.18554711450551]
       },
       {
-        "_id": "5c88fa8cf4afda39709c295d",
         "description": "Almáciga Beach",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [28.573112608409904, -16.204602250122626]
       },
       {
-        "_id": "5c88fa8cf4afda39709c2960",
         "description": "Playa del Tamadite",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [28.57069335333122, -16.25304950706936]
       }
     ],
     "keywords": ["camping", "tenerife", "surfing", "fully guided"],
@@ -240,7 +215,6 @@
     "island": "Lanzarote",
     "name": "La Graciosa by bike",
     "bookmarkImgUrl": "bookmark04.jpg",
-
     "cardSmall": "ok",
     "cardLargeImgUrl1400": ["tour4Ax1400.jpg", "tour4Bx1400.jpg", "tour4Cx1400.jpg"],
     "cardLargeImgUr800": ["tour4Ax800.jpg", "tour4Bx800.jpg", "tour4Cx800.jpg"],
@@ -251,8 +225,6 @@
     "imageMain1400": "tour4x1400.jpg",
     "imageMain800": "tour4x800.jpg",
     "imageMain500": "tour4x500.jpg",
-
-
     "imageCover" : "tour4x1400.jpg",    
     "days": 1,
     "startDates": [
@@ -265,42 +237,32 @@
     "startAndEndPoint": "Órzola, Lanzarote",
     "stops": ["2 viewpoints", "4 beaches"],
     "stopPoints": ["Caleta del Sebo", "Barranco de los Conejos", "Playa Lambra", "Playa de las Conchas", "Playa de la Cocina", "Playa Francesa"], 
-    "locations": [
+    "mapCenterCoordinates": [29.253558837496755, -13.488140155965674],
+    "mapZoom": 12,
+    "mapLocations": [
       {
-        "_id": "5c88fa8cf4afda39709c296b",
+        "description": "Órzola, Lanzarote - Starting Point",
+        "coordinates": [29.223664420009776, -13.451806330875057]
+      },
+      {
         "description": "Caleta del Sebo",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [29.23293064169703, -13.503157386678703]
       },
       {
-        "_id": "5c88fa8cf4afda39709c295e",
         "description": "Barranco de los Conejos",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [29.253558837496755, -13.488140155965674]
       },
       {
-        "_id": "5c88fa8cf4afda39709c296a",
-        "description": "Playa Lambra",
-        "type": "Point",
-        "coordinates": []
-      },
-      {
-        "_id": "5c88fa8cf4afea39709c2969",
         "description": "Playa de las Conchas",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [29.275233169611308, -13.515846259963464]
       },
       {
-        "_id": "5c88fa8cf4afda39709c2968",
         "description": "Playa de la Cocina",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [29.220807536936203, -13.53684595177769]
       },
       {
-        "_id": "5c88fa8cf4afda39709c2967",
         "description": "Playa Francesa",
-        "type": "Point",
-        "coordinates": []
+        "coordinates": [29.220775294302996, -13.527760995985766]
       }
     ],
     "keywords": ["bike", "isla", "archipelago", "fully guided"],
@@ -319,7 +281,6 @@
     "nr": "05",
     "island": "La Gomera",
     "name": "Sailing with Gigantes",
-
     "bookmarkImgUrl": "bookmark05.jpg",
     "cardSmall": "ok",
     "cardLargeImgUrl1400": ["tour5Ax1400.jpg", "tour5Bx1400.jpg", "tour5Cx1400.jpg"],
@@ -327,11 +288,10 @@
     "cardLargeDescription": "",
     "cardDifficultyImageUrl": "",
     "cardSmallName": "La Gomera, Canaries",
-    "cardSmallDays": "5-day trip",   "imageMain1400": "tour5x1400.jpg",
+    "cardSmallDays": "5-day trip",   
+    "imageMain1400": "tour5x1400.jpg",
     "imageMain800": "tour5x800.jpg",
     "imageMain500": "tour5x500.jpg",
-
-
     "imageCover" : "tour5x1400.jpg",    
     "days": 5,
     "startDates": [
@@ -344,42 +304,36 @@
     "startAndEndPoint": "Los Gigantes,Tenerife",
     "stops": ["2 cities", "5 beaches"],
     "stopPoints": ["Playa Barranco Seco", "San Sebastián de la Gomera", "Playa de Ávalo", "Punta de los Órganos", "Playa de Heredia", "Playa del Inglés"], 
-    "locations": [
+    "mapCenterCoordinates": [28.111924526624293, -17.10594919323016],
+    "mapZoom": 10,
+    "mapLocations": [
       {
-        "_id": "5c88fa8cf4afda39709c2973",
-        "description": "",
-        "type": "Point",
-        "coordinates": []
+        "description": "Los Gigantes, Tenerife - Starting Point",
+        "coordinates": [28.24799657823581, -16.840134882055416]
       },
       {
-        "_id": "5c88fa8cf4afda39709c2972",
-        "description": "",
-        "type": "Point",
-        "coordinates": []
+        "description": "Playa Barranco Seco",
+        "coordinates": [28.27134775393783, -16.84921808934575]
       },
       {
-        "_id": "5c88fa8cf4afda39709c2971",
-        "description": "",
-        "type": "Point",
-        "coordinates": []
+        "description": "San Sebastián de la Gomera",
+        "coordinates": [28.09289169350669, -17.100026394069367]
       },
       {
-        "_id": "5c88fa8cf4afda39709c2974",
-        "description": "",
-        "type": "Point",
-        "coordinates": []
+        "description": "Playa de Ávalo",
+        "coordinates": [28.111924526624293, -17.10594919323016]
       },
       {
-        "_id": "5c88fa8cf4afda39709c2975",
-        "description": "",
-        "type": "Point",
-        "coordinates": []
+        "description": "Punta de los Órganos",
+        "coordinates": [28.217912639623563, -17.259029351289797]
       },
       {
-        "_id": "5c88fa8cf4afda39709c296c",
-        "description": "",
-        "type": "Point",
-        "coordinates": []
+        "description": "Playa de Heredia",
+        "coordinates": [28.12643576969747, -17.342788823155786]
+      },
+      {
+        "description": "Playa del Inglés",
+        "coordinates": [28.1004803250083, -17.347553439535204]
       }
     ],
     "keywords": ["sailing", "tenerife", "la gomera", "fully guided"],
@@ -399,7 +353,6 @@
     "nr": "06",
     "island": "Fuerteventura",
     "bookmarkImgUrl": "bookmark06.jpg",
-
     "cardSmall": "ok",
     "cardLargeImgUrl1400": ["tour6Ax1400.jpg", "tour6Bx1400.jpg", "tour6Cx1400.jpg"],
     "cardLargeImgUr800": ["tour6Ax800.jpg", "tour6Bx800.jpg", "tour6Cx800.jpg"],
@@ -410,8 +363,6 @@
     "imageMain1400": "tour6x1400.jpg",
     "imageMain800": "tour6x800.jpg",
     "imageMain500": "tour6x500.jpg",
-
-
     "imageCover" : "tour6x1400.jpg",    
     "days": 1,
     "startDates": [
@@ -424,12 +375,28 @@
     "startAndEndPoint": " Puerto de Corralejo",
     "stops": ["1 city", "4 beaches"],
     "stopPoints": ["El Puertito", "Las Lagunitas", "Punta Martiño lighthouse", "Montaña La Caldera"], 
-    "locations": [
+    "mapCenterCoordinates": [28.75248199484606, -13.830898344580447],
+    "mapZoom": 13,
+    "mapLocations": [
       {
-        "_id": "5c88fa8cf4afda39709c296e",
-        "description": "",
-        "type": "Point",
-        "coordinates": []
+        "description": "Puerto de Corralejo- Starting Point",
+        "coordinates": [28.740728827307866, -13.86298772239544]
+      },
+      {
+        "description": "El Puertito",
+        "coordinates": [28.739710218404724, -13.816696756099018]
+      },
+      {
+        "description": "Las Lagunitas",
+        "coordinates": [28.747691658639233, -13.811293459757165]
+      },
+      {
+        "description": "Punta Martiño lighthouse",
+        "coordinates": [28.765996627932257, -13.814813063981338]
+      },
+      {
+        "description": "Montaña La Caldera",
+        "coordinates": [28.75248199484606, -13.830898344580447]
       }
     ],
     "keywords": ["beach", "lobos", "relax", "fully guided"],
@@ -449,7 +416,6 @@
     "island": "Tenerife",
     "name": "Anaga hike",
     "bookmarkImgUrl": "bookmark07.jpg",
-
     "cardSmall": "ok",
     "cardLargeImgUrl1400": ["tour7Ax1400.jpg", "tour7Bx1400.jpg", "tour7Cx1400.jpg"],
     "cardLargeImgUr800": ["tour7Ax800.jpg", "tour7Bx800.jpg", "tour7Cx800.jpg"],
@@ -460,8 +426,6 @@
     "imageMain1400": "tour7x1400.jpg",
     "imageMain800": "tour7x800.jpg",
     "imageMain500": "tour7x500.jpg",
-
-
     "imageCover" : "tour7x1400.jpg",    
     "days": 2,
     "startDates": [
@@ -474,12 +438,36 @@
     "startAndEndPoint": "Santa Cruz de Tenerife",
     "stops": ["1 city", "4 viewpoints"],
     "stopPoints": ["La Laguna", "Las Lagunetas", "Las Cañadas del Teide", "Capilla de la Fortaleza", "Pico del Teide", "Boca Tauce"], 
-    "locations": [
+    "mapCenterCoordinates": [28.31239635733397, -16.56509766659076],
+    "mapZoom": 9,
+    "mapLocations": [
       {
-        "_id": "5c89fa8cf4afda39709c296d",
-        "description": "",
-        "type": "Point",
-        "coordinates": []
+        "description": "Santa Cruz de Tenerife - Starting Point",
+        "coordinates": [28.47302735170782, -16.253670205191447]
+      },
+      {
+        "description": "La Laguna",
+        "coordinates": [28.27134775393783, -16.84921808934575]
+      },
+      {
+        "description": "Las Lagunetas",
+        "coordinates": [28.41084719169972, -16.42569779459739]
+      },
+      {
+        "description": "Las Cañadas del Teide",
+        "coordinates": [28.31239635733397, -16.56509766659076]
+      },
+      {
+        "description": "Capilla de la Fortaleza",
+        "coordinates": [28.31474722373986, -16.591709123529146]
+      },
+      {
+        "description": "Pico del Teide",
+        "coordinates": [28.2736868527691, -16.642811452742198]
+      },
+      {
+        "description": "Boca Tauce",
+        "coordinates": [28.214351227052312, -16.677874690602962]
       }
     ],
     "keywords": ["camping", "tenerife", "hiking", "fully guided"],
@@ -499,7 +487,6 @@
     "island": "Gran Canaria",
     "name": "Dunas Maspalomas",
     "bookmarkImgUrl": "bookmark08.jpg",
-
     "cardMedium": "ok",
     "cardLargeImgUrl1400": ["tour8Ax1400.jpg", "tour8Bx1400.jpg", "tour8Cx1400.jpg"],
     "cardLargeImgUr800": ["tour8Ax800.jpg", "tour8Bx800.jpg", "tour8Cx800.jpg"],
@@ -510,8 +497,6 @@
     "imageMain1400": "tour8x1400.jpg",
     "imageMain800": "tour8x800.jpg",
     "imageMain500": "tour8x500.jpg",
-
-
     "imageCover" : "tour8x1400.jpg",    
     "days": 1,
     "startDates": [
@@ -524,12 +509,20 @@
     "startAndEndPoint": "Maspalomas",
     "stops": ["1 city", "dunas"],
     "stopPoints": ["Dunes of Maspalomas", "Playa del Inglés"], 
-    "locations": [
+    "mapCenterCoordinates": [27.742472344303117, -15.570205072828305],
+    "mapZoom": 13,
+    "mapLocations": [
       {
-        "_id": "5c18fa8cf4afda39709c296d",
-        "description": "",
-        "type": "Point",
-        "coordinates": []
+        "description": "Maspalomas - Starting Point",
+        "coordinates": [27.75356569944571, -15.591144222325362]
+      },
+      {
+        "description": "Dunes of Maspalomas",
+        "coordinates": [27.742472344303117, -15.570205072828305]
+      },
+      {
+        "description": "Playa del Inglés",
+        "coordinates": [27.758420930614033, -15.562474671583109]
       }
     ],
     "keywords": ["beach", "gran canaria", "walking", "fully guided"],
@@ -549,7 +542,6 @@
     "nr": "09",
     "island": "Tenerife",
     "bookmarkImgUrl": "bookmark09.jpg",
-
     "cardMedium": "ok",
     "cardLargeImgUrl1400": ["tour9Ax1400.jpg", "tour9Bx1400.jpg", "tour9Cx1400.jpg"],
     "cardLargeImgUr800": ["tour9Ax800.jpg", "tour9Bx800.jpg", "tour9Cx800.jpg"],
@@ -560,7 +552,6 @@
     "imageMain1400": "tour9x1400.jpg",
     "imageMain800": "tour9x800.jpg",
     "imageMain500": "tour9x500.jpg",
-
     "imageCover" : "tour9x1400.jpg",    
     "days": 6,
     "startDates": [
@@ -573,12 +564,28 @@
     "startAndEndPoint": "Santa Cruz de Tenerife",
     "stops": ["1 city", "4 beaches"],
     "stopPoints": ["Playa de Las Gaviotas", "Playa de Benijo", "Almáciga Beach", "Playa del Tamadite"], 
-    "locations": [
+    "mapCenterCoordinates": [28.544656459012852, -16.20242213511319],
+    "mapZoom": 11,
+    "mapLocations": [
       {
-        "_id": "2c88fa8cf4afda39709c296d",
-        "description": "",
-        "type": "Point",
-        "coordinates": []
+        "description": "Santa Cruz de Tenerife - Starting Point",
+        "coordinates": [28.47302735170782, -16.253670205191447]
+      },
+      {
+        "description": "Playa de Las Gaviotas",
+        "coordinates": [28.5130956490786, -16.176202840209694]
+      },
+      {
+        "description": "Playa de Benijo",
+        "coordinates": [28.572623586354705, -16.192763238650677]
+      },
+      {
+        "description": "Almáciga Beach",
+        "coordinates": [28.5719392502477, -16.203568119149438]
+      },
+      {
+        "description": "Playa del Tamadite",
+        "coordinates": [28.570655663897153, -16.253060236772765]
       }
     ],
     "keywords": ["camping", "tenerife", "surfing", "fully guided"],
@@ -598,7 +605,6 @@
     "island": "Tenerife",
     "name": "Volcano el Teide",
     "bookmarkImgUrl": "bookmark10.jpg",
-    
     "cardMedium": "ok",
     "cardLargeImgUrl1400": ["tour10Ax1400.jpg", "tour10Bx1400.jpg", "tour10Cx1400.jpg"],
     "cardLargeImgUr800": ["tour10Ax800.jpg", "tour10Bx800.jpg", "tour10Cx800.jpg"],
@@ -609,7 +615,6 @@
     "imageMain1400": "tour10x1400.jpg",
     "imageMain800": "tour10x800.jpg",
     "imageMain500": "tour10x500.jpg",
-    
     "imageCover" : "tour10x1400.jpg",
     "days": 3,
     "startDates": [
@@ -622,12 +627,32 @@
     "startAndEndPoint": "Santa Cruz de Tenerife",
     "stops": ["1 city", "4 viewpoints"],
     "stopPoints": ["Santa Cruz De Tenerife", "La Laguna", "La Esperanza", "Mirador de Chipeque", "Mirador de La Crucita", "Teide"], 
-    "locations": [
+    "mapCenterCoordinates": [28.37416888298597, -16.463811338012928],
+    "mapZoom": 9.5,
+    "mapLocations": [
       {
-        "_id": "4c88fa8cf4afda39709c296d",
-        "description": "",
-        "type": "Point",
-        "coordinates": []
+        "description": "Santa Cruz de Tenerife - Starting Point",
+        "coordinates": [28.47302735170782, -16.253670205191447]
+      },
+      {
+        "description": "La Laguna",
+        "coordinates": [28.48518268185603, -16.32019680840523]
+      },
+      {
+        "description": "La Esperanza",
+        "coordinates": [28.452143709033056, -16.36739968449323]
+      },
+      {
+        "description": "Mirador de Chipeque",
+        "coordinates": [28.37416888298597, -16.463811338012928]
+      },
+      {
+        "description": "Mirador de La Crucita",
+        "coordinates": [28.34540422038969, -16.48131142622871]
+      },
+      {
+        "description": "Teide",
+        "coordinates": [28.273206709434124, -16.642722513700193]
       }
     ],
     "keywords": ["camping", "tenerife", "hiking", "fully guided"],
@@ -646,7 +671,6 @@
     "nr": "11",
     "island": "El Hierro",
     "name": "Hop Diving",
-    
     "bookmarkImgUrl": "bookmark10.jpg",
     "cardLargeImgUrl1400": ["tour10Ax1400.jpg", "tour10Bx1400.jpg", "tour10Cx1400.jpg"],
     "cardLargeImgUr800": ["tour10Ax800.jpg", "tour10Bx800.jpg", "tour10Cx800.jpg"],
@@ -657,7 +681,6 @@
     "imageMain1400": "tour11x1400.jpg",
     "imageMain800": "tour11x800.jpg",
     "imageMain500": "tour11x500.jpg",
-    
     "imageCover" : "tour11x1400.jpg",
     "days": 4,
     "startDates": [
@@ -670,12 +693,24 @@
     "startAndEndPoint": "La Restinga Puerto Deportivo",
     "stops": ["4 beaches"],
     "stopPoints": ["La Restinga Puerto Deportivo", "Playa de las Alcusas", "Playa de las Calcosas", "Charco Azul"], 
-    "locations": [
+    "mapCenterCoordinates": [27.74437743359798, -17.9966651701423],
+    "mapZoom": 10.5,
+    "mapLocations": [
       {
-        "_id": "5c88fa8cf4afda39709c292d",
-        "description": "",
-        "type": "Point",
-        "coordinates": []
+        "description": "La Restinga Puerto Deportivo - Starting Point",
+        "coordinates": [27.639631948642275, -17.98005115308702]
+      },
+      {
+        "description": "Playa de las Alcusas",
+        "coordinates": [27.69488202011019, -18.06170740118843]
+      },
+      {
+        "description": "Playa de las Calcosas",
+        "coordinates": [27.701405715093575, -17.959782553871218]
+      },
+      {
+        "description": "Charco Azul",
+        "coordinates": [27.76253465741681, -18.040005655003863]
       }
     ],
     "keywords": ["diving", "el hierro", "boats", "fully guided"],
@@ -694,7 +729,6 @@
     "nr": "12",
     "island": "Fuerteventura",
     "name": "Fast Wind",
-    
     "bookmarkImgUrl": "bookmark12.jpg",
     "cardLargeImgUrl1400": ["tour12Ax1400.jpg", "tour12Bx1400.jpg", "tour12Cx1400.jpg"],
     "cardLargeImgUr800": ["tour12Ax800.jpg", "tour12Bx800.jpg", "tour12Cx800.jpg"],
@@ -705,7 +739,6 @@
     "imageMain1400": "tour12x1400.jpg",
     "imageMain800": "tour12x800.jpg",
     "imageMain500": "tour12x500.jpg",
-    
     "imageCover" : "tour12x1400.jpg",
     "days": 1,
     "startDates": [
@@ -717,13 +750,21 @@
     "ratingQuantity": 38,
     "startAndEndPoint": "Playa Esmeralda",
     "stops": ["2 beaches"],
-    "stopPoints": ["Playa Esmeralda", "Playa Esquinzo-Butihondom"], 
-    "locations": [
+    "stopPoints": ["Playa Esmeralda", "Playa Esquinzo-Butihondom"],
+    "mapCenterCoordinates": [28.427289191920963, -14.018508408645031],
+    "mapZoom": 9, 
+    "mapLocations": [
       {
-        "_id": "5c88fa8cf4afda39709c294d",
-        "description": "",
-        "type": "Point",
-        "coordinates": []
+        "description": "Playa Esmeralda - Starting Point",
+        "coordinates": [28.147947161771242, -14.233860324986276]
+      },
+      {
+        "description": "Playa Esquinzo",
+        "coordinates": [28.663129433244997, -14.030733552557088]
+      },
+      {
+        "description": "Butihondom",
+        "coordinates": [28.062649614272573, -14.311277206929008]
       }
     ],
     "keywords": ["windsurfing", "fuerte", "beach", "fully guided"],

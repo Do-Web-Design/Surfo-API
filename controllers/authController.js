@@ -91,12 +91,13 @@ exports.protect = catchAsync(async (req, res, next) => {
     token = req.cookies.jwt;
   }
 
+  
   if (!token) {
     return next(
       new AppError('You are not logged in! Please log in to get access.', 401)
-    );
-  }
-
+      );
+    }
+    
   // 2) Verification token
   const decoded = await promisify(jwt.verify)(token, process.env.JWT_SECRET);
 
@@ -136,6 +137,7 @@ exports.isLoggedIn = async (req, res, next) => {
       req.cookies.jwt,
       process.env.JWT_SECRET  
     );
+    
 
     // 2) Check if user still exists
     const currentUser = await User.findById(decoded.id);

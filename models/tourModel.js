@@ -9,14 +9,12 @@ const tourSchema = new mongoose.Schema(
       unique: true, 
     },
     slug: String,
-    nr: String,
+    // nr: String,
     type: {
       type: String,
-      // required: [true, 'A tour must have a type']
     },
     island: {
       type: String,
-      // required: [true, 'A tour must have a island location']
     },
     //SELECT
     cardLarge: { type: String },
@@ -30,12 +28,10 @@ const tourSchema = new mongoose.Schema(
 
     imageCover: {
       type: String, 
-      // required: [true, 'A tour must have a cover image']
     },
 
     days: { 
       type: Number,
-      // required: [true, 'A tour must have a ']
     },
     startDates: [Date],
     ratingAverage: {
@@ -52,27 +48,22 @@ const tourSchema = new mongoose.Schema(
     startAndEndPoint: { type: String }, 
     stops: [String],
     stopPoints: [String],
-    locations: [
+    mapCenterCoordinates: [Number],
+    mapZoom: Number,
+    mapLocations: [
       {
-        type: {
-          type: String,
-          default: 'Point',
-          enum: ['Point'],
-        },
-        coordinates: [Number], 
-        address: String,
-        description: String, 
-      },
+        description: String,
+        coordinates: [Number]
+      }
     ],
-
     keywords: [String],
     maxGroupSize: {
       type: Number,
-      required: [true, 'A tour must have a group sieze'],
+      required: [true, 'A tour must have a group size'],
     },
     minGroupSize: {
       type: Number,
-      required: [true, 'A tour must have a group sieze'],
+      required: [true, 'A tour must have a group size'],
     },
     sleeping: {
       type: String
@@ -102,6 +93,12 @@ const tourSchema = new mongoose.Schema(
 );
 
 //VIRTUAL POPULATE
+tourSchema.virtual('users', {
+  ref: 'User', 
+  foreignField: 'user', 
+  localField: '_id', 
+});
+
 tourSchema.virtual('reviews', {
   ref: 'Review', 
   foreignField: 'tour', 
