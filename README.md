@@ -8,7 +8,7 @@
 
 # General info:
 
-Modern back-end applications created with Node.js, RESTful API, and MongoDB.
+Modern back-end application created with Node.js, RESTful API, and MongoDB.
 
 Front-end repository: https://github.com/aleksandra-depta/Surfo-React 
 > Front-end technologies: React, Redux Toolkit, Styled-Components & Bootstrap
@@ -30,6 +30,21 @@ Clone this repository
 
 
 Create an .env file in your project root folder
+
+   NODE_ENV = development
+   PORT = ...
+
+   DATABASE_PASSWORD=...
+   DATABASE=...
+   DATABASE_LOCAL=...
+
+   JWT_SECRET=...
+   JWT_EXPIRES_IN=90d
+   JWT_COOKIE_EXPIRE_IN=90
+
+   ACCESS_TOKEN_SECRET=...
+   REFRESH_TOKEN_SECRET=...
+   
 
 
 To run this project, install it locally using npm:
