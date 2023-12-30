@@ -24,7 +24,7 @@ Deployment: https://surfo.netlify.app/
 
 # Setup
 
-Clone this repository [here]
+Clone this repository 
 
     https://github.com/aleksandra-depta/Surfo-api.git
 
@@ -45,7 +45,7 @@ To run this project, install it locally using npm:
 
 GET All Tours
 
-`https://surfo-api.onrender.com/api/v1/tours`
+    https://surfo-api.onrender.com/api/v1/tours
 
 
 GET Tour
