@@ -1,4 +1,4 @@
-## Surfo Api
+# Surfo Api
 
 ## Table of contents
 * [General info](#general-info)
@@ -6,30 +6,53 @@
 * [Setup](#setup)
 * [REST Api](#REST-Api)
 
-## General info:
+# General info:
 
-## Technologies:
+Modern back-end applications created with Node.js, RESTful API, and MongoDB.
+
+Front-end repository: https://github.com/aleksandra-depta/Surfo-React 
+    > React
+    > Redux Toolkit
+    > Styled-Components
+    > Bootstrap
+
+Deployment: https://surfo.netlify.app/
+
+# Technologies:
 
 * Node.js, 
 * Express.js,
 * MongoDB,
 * Mongoose
 
-## Setup
+# Setup
+
+Clone this repository [here]
+
+    https://github.com/aleksandra-depta/Surfo-api.git
+
+
+Create an .env file in your project root folder
+
+
 To run this project, install it locally using npm:
 
     $ npm install
     $ npm start
 
 
-## REST API
+# REST API
 
-# TOURS
+## TOURS
 
 
 GET All Tours
 
+> Request
+
 `https://surfo-api.onrender.com/api/v1/tours`
+
+
 
 GET Tour
 
@@ -49,7 +72,7 @@ DELETE Tour
 
 
 
-# Users
+## Users
 
 
 GET All Users (admin)
@@ -102,7 +125,7 @@ PATCH Update My Password
 
 
 
-# Rewviews
+## Rewviews
 
 
 GET All Reviews
@@ -143,7 +166,7 @@ GET All Reviews on the User
 
 
 
-# Comments
+## Comments
 
 
 GET All Comments
@@ -184,7 +207,7 @@ GET All Comments on the User
 
 
 
-# Bookings
+## Bookings
 
 
 GET All Bookings (admin)
