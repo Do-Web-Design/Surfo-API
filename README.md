@@ -11,7 +11,7 @@
 Modern back-end application created with Node.js, RESTful API, and MongoDB.
 
 Front-end repository: https://github.com/aleksandra-depta/Surfo-React 
-> Front-end technologies: React, Redux Toolkit, Styled-Components & Bootstrap
+> Front-end technologies: TypeScript, React, Redux Toolkit, Styled-Components & Bootstrap
 
 Deployment: https://surfo.netlify.app/
 
