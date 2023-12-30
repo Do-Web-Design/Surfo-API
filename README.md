@@ -1,11 +1,25 @@
 ## Surfo Api
 
-# Technologies:
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [REST Api](#REST-Api)
 
-- Node.js, 
-- Express.js,
-- MongoDB,
-- Mongoose
+## General info:
+
+## Technologies:
+
+* Node.js, 
+* Express.js,
+* MongoDB,
+* Mongoose
+
+## Setup
+To run this project, install it locally using npm:
+
+$ npm install
+$ npm start
 
 
 ## REST API
@@ -15,7 +29,7 @@
 
 GET All Tours
 
-https://surfo-api.onrender.com/api/v1/tours
+`https://surfo-api.onrender.com/api/v1/tours`
 
 GET Tour
 
