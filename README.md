@@ -31,7 +31,7 @@ Clone this repository
 
 Create an .env file in your project root folder
 
-    NODE_ENV = development
+    NODE_ENV = ...
     PORT = ...
 
     DATABASE_PASSWORD=...
@@ -39,8 +39,8 @@ Create an .env file in your project root folder
     DATABASE_LOCAL=...
 
     JWT_SECRET=...
-    JWT_EXPIRES_IN=90d
-    JWT_COOKIE_EXPIRE_IN=90
+    JWT_EXPIRES_IN=...
+    JWT_COOKIE_EXPIRE_IN=...
 
     ACCESS_TOKEN_SECRET=...
     REFRESH_TOKEN_SECRET=...
@@ -115,7 +115,7 @@ GET Current (logged-in) User
 
     https://surfo-api.onrender.com/api/v1/users/updateMe
 
-PATCH Update Current (logged in) User
+PATCH Update Current (logged-in) User
 
 
     https://surfo-api.onrender.com/api/v1/users/updateMe
@@ -149,7 +149,7 @@ PATCH Update My Password
 
 
 
-## Rewviews
+## Reviews
 
 
 GET All Reviews
