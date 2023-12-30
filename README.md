@@ -1,8 +1,6 @@
 ## Surfo Api
 
-Server
-
-#Technologies:
+# Technologies:
 
 - Node.js, 
 - Express.js,
