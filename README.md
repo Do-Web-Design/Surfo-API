@@ -11,10 +11,10 @@
 Modern back-end applications created with Node.js, RESTful API, and MongoDB.
 
 Front-end repository: https://github.com/aleksandra-depta/Surfo-React 
-    > React
-    > Redux Toolkit
-    > Styled-Components
-    > Bootstrap
+> React
+> Redux Toolkit
+> Styled-Components
+> Bootstrap
 
 Deployment: https://surfo.netlify.app/
 
@@ -48,10 +48,7 @@ To run this project, install it locally using npm:
 
 GET All Tours
 
-> Request
-
 `https://surfo-api.onrender.com/api/v1/tours`
-
 
 
 GET Tour
