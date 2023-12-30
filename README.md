@@ -44,25 +44,29 @@ To run this project, install it locally using npm:
 
 
 GET All Tours
+`Request`
 
     https://surfo-api.onrender.com/api/v1/tours
 
-
 GET Tour
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/tours/:id`
+    https://surfo-api.onrender.com/api/v1/tours/:id
 
 POST Create New Tour
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/tours`
+    https://surfo-api.onrender.com/api/v1/tours
 
 PATCH Update Tour
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/tours/:id`
+    https://surfo-api.onrender.com/api/v1/tours/:id
 
 DELETE Tour
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/tours/:id`
+    https://surfo-api.onrender.com/api/v1/tours/:id
 
 
 
@@ -70,52 +74,63 @@ DELETE Tour
 
 
 GET All Users (admin)
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/users`
+    https://surfo-api.onrender.com/api/v1/users
 
 GET User (admin)
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/users/:id`
+    https://surfo-api.onrender.com/api/v1/users/:id
 
 PATCH Update User (admin)
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/users/:id`
+    https://surfo-api.onrender.com/api/v1/users/:id
 
 DELETE User (admin)
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/users/:id`
+    https://surfo-api.onrender.com/api/v1/users/:id
 
 
 
 GET Current (logged-in) User
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/users/updateMe`
+    https://surfo-api.onrender.com/api/v1/users/updateMe
 
 PATCH Update Current (logged in) User
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/users/updateMe`
+    https://surfo-api.onrender.com/api/v1/users/updateMe
 
 DELETE Current (logged-in) User
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/users/deleteMe`
+    https://surfo-api.onrender.com/api/v1/users/deleteMe
 
 
 
 POST SignUp
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/users/signup`
+    https://surfo-api.onrender.com/api/v1/users/signup
 
 POST Login
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/users/login`
+    https://surfo-api.onrender.com/api/v1/users/login
 
 PATCH Reset Password
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/users/forgotPassword`
+    https://surfo-api.onrender.com/api/v1/users/forgotPassword
 
 PATCH Update My Password
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/users/forgotPassword`
+    https://surfo-api.onrender.com/api/v1/users/forgotPassword
 
 
 
@@ -123,40 +138,48 @@ PATCH Update My Password
 
 
 GET All Reviews
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/reviews`
+    https://surfo-api.onrender.com/api/v1/reviews
 
 GET Review
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/reviews/:id`
+    https://surfo-api.onrender.com/api/v1/reviews/:id
 
 POST Create New Review
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/reviews`
+    https://surfo-api.onrender.com/api/v1/reviews
 
 PATCH Update Review
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/reviews/:id`
+    https://surfo-api.onrender.com/api/v1/reviews/:id
 
 DELETE Review
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/reviews/:id`
+    https://surfo-api.onrender.com/api/v1/reviews/:id
 
 
 
 GET All Reviews on the Tour
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/tours/:tourId/reviews`
+    https://surfo-api.onrender.com/api/v1/tours/:tourId/reviews
 
 POST Create a Review on the Tour
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/tours/:tourId/reviews`
+    https://surfo-api.onrender.com/api/v1/tours/:tourId/reviews
 
 
 
 GET All Reviews on the User
+`Request`
 
-`https://surfo-api.onrender.com/users/:userId/reviews`
+    https://surfo-api.onrender.com/users/:userId/reviews
 
 
 
@@ -164,40 +187,48 @@ GET All Reviews on the User
 
 
 GET All Comments
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/comments`
+    https://surfo-api.onrender.com/api/v1/comments    
 
 GET Comment
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/comments/:id`
+    https://surfo-api.onrender.com/api/v1/comments/:id    
 
 POST Create Comment
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/comments`
+    https://surfo-api.onrender.com/api/v1/comments`
 
 PATCH Update Comment
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/comments/:id`
+    https://surfo-api.onrender.com/api/v1/comments/:id    
 
 DELETE Comment
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/comments/:id`
+    https://surfo-api.onrender.com/api/v1/comments/:id    
 
 
 
 GET All Comments on the Tour
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/tours/:tourId/comments`
+    https://surfo-api.onrender.com/api/v1/tours/:tourId/comments`
 
 POST Create Comment on the Tour
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/tours/:tourId/comments`
+    https://surfo-api.onrender.com/api/v1/tours/:tourId/comments    
 
 
 
 GET All Comments on the User
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/users/:tourId/comments`
+    https://surfo-api.onrender.com/api/v1/users/:tourId/comments`
 
 
 
@@ -205,12 +236,14 @@ GET All Comments on the User
 
 
 GET All Bookings (admin)
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/booking`
+    https://surfo-api.onrender.com/api/v1/booking    
 
 POST Create Booking
+`Request`
 
-`https://surfo-api.onrender.com/api/v1/booking`
+    https://surfo-api.onrender.com/api/v1/booking`
 
 
 
